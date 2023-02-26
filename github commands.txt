@@ -1,0 +1,1285 @@
+(expatproj) C:\expatproj>ggit config --global user.name "Amjad Projects"
+'ggit' is not recognized as an internal or external command,
+operable program or batch file.
+
+(expatproj) C:\expatproj>git config --global user.name "Amjad Projects"
+
+(expatproj) C:\expatproj>git config --global user.email "aakhan1572@yahoo.com"
+
+(expatproj) C:\expatproj>git branch expatproj
+
+(expatproj) C:\expatproj>git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ,
+        .gitignore
+        Commands.txt
+        Error got while creating new fields and some changes in datatable.txt
+        Folium update conda.txt
+        GDAL-3.3.3-cp39-cp39-win_amd64.whl
+        Google password.txt
+        Important Funtions.txt
+        Scripts/
+        Widget Tweaks.txt
+        accounts/
+        ads app views and urls file content.txt
+        ads/
+        categories/
+        customers/
+        expads/
+        image-4.jpg
+        main/
+        manage.py
+        pyvenv.cfg
+        requirements.txt
+        static/
+        templates/
+        vendor/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+(expatproj) C:\expatproj>git add [*]
+fatal: pathspec '[*]' did not match any files
+
+(expatproj) C:\expatproj>git add .
+warning: LF will be replaced by CRLF in Scripts/activate.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Scripts/activate.fish.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Scripts/activate.nu.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Scripts/activate.ps1.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Scripts/activate_this.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Scripts/deactivate.nu.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in accounts/context_processors.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in accounts/forms.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in accounts/signals.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in accounts/utils.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in accounts/validators.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in expads/forms.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in expads/validators.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/RealEstateImages/Jobs.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/RealEstateImages/Jobs_files/cb=gapi.loaded_0.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/RealEstateImages/Jobs_files/m=_b,_tp,_r.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/RealEstateImages/Jobs_files/rs=AA2YrTvROJRIUHNXRGvxagmQNrIBf8h-LQ.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/bootstrap-datepicker.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/bootstrap-slider.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/cs-foodbakery-plugin.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/custom.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/iconmoon.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/fonts/icomoon.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/js/custom.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/js/functions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/js/modernizr.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in main/static/js/scripts.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/RealEstateImages/Jobs.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/RealEstateImages/Jobs_files/cb=gapi.loaded_0.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/RealEstateImages/Jobs_files/m=_b,_tp,_r.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/RealEstateImages/Jobs_files/rs=AA2YrTvROJRIUHNXRGvxagmQNrIBf8h-LQ.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/autocomplete.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/base.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/changelists.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/dark_mode.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/dashboard.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/fonts.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/forms.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/login.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/nav_sidebar.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/responsive.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/responsive_rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/rtl.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/vendor/select2/LICENSE-SELECT2.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/vendor/select2/select2.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/vendor/select2/select2.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/css/widgets.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/fonts/README.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/README.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/calendar-icons.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-addlink.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-alert.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-calendar.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-changelink.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-clock.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-deletelink.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-no.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-unknown-alt.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-unknown.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-viewlink.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/icon-yes.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/inline-delete.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/search.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/selector-icons.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/sorting-icons.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/tooltag-add.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/img/tooltag-arrowright.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/SelectBox.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/SelectFilter2.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/actions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/admin/DateTimeShortcuts.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/admin/RelatedObjectLookups.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/autocomplete.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/calendar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/cancel.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/change_form.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/collapse.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/core.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/filters.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/inlines.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/jquery.init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/nav_sidebar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/popup_response.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/prepopulate.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/prepopulate_init.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/urlify.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/jquery/LICENSE.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/jquery/jquery.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/jquery/jquery.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/LICENSE.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/af.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/az.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/bg.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/bn.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/bs.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ca.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/cs.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/da.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/de.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/dsb.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/el.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/en.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/es.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/et.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/eu.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/fa.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/fi.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/fr.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/gl.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/he.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/hi.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/hr.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/hsb.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/hu.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/hy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/id.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/is.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/it.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ja.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ka.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/km.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ko.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/lt.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/lv.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/mk.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ms.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/nb.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ne.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/nl.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/pl.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ps.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/pt-BR.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/pt.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ro.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/ru.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/sk.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/sl.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/sq.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/sr-Cyrl.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/sr.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/sv.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/th.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/tk.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/tr.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/uk.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/vi.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/zh-CN.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/i18n/zh-TW.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/select2.full.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/select2/select2.full.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/xregexp/LICENSE.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/xregexp/xregexp.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/admin/js/vendor/xregexp/xregexp.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/bootstrap-datepicker.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/bootstrap-slider.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/cs-foodbakery-plugin.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/iconmoon.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/responsive.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/css/ui.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/dialog.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/django-htmx.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/fontawesome/css/all.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/fontawesome/css/all.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/fontawesome/webfonts/fa-brands-400.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/fontawesome/webfonts/fa-regular-400.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/fontawesome/webfonts/fa-solid-900.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/icomoon.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/roboto/font-min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/fonts/roboto/font.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/images/icons/stars-active.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/images/icons/starts-disable.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/custom.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/daterangepicker.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/dialog.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/functions.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/jquery-2.0.0.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/jquery-te-1.4.0.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/jquery-ui.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/jquery.mCustomScrollbar.concat.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/modernizr.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/script.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/scripts.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/tag-it.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/theia-sticky-sidebar.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/js/toast.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in static/toast.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/custDashboard.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/emails/account_verification_email.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/emails/admin_approval_email.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/emails/reset_password_email.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/forgot_password.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/login.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/registerUser.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/registerVendor.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/reset_password.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/accounts/vendorDashboard.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/base.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/countries.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/includes/alerts.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/includes/c_sidebar.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/includes/cover.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/includes/footer.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/includes/navbar.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/includes/v_sidebar.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/partials/cities.html.
+The file will have its original line endings in your working directory
+
+(expatproj) C:\expatproj>git comit -m "expatproj"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+(expatproj) C:\expatproj>git commit -m "expatproj"
+[main fc59643] expatproj
+ 792 files changed, 169923 insertions(+)
+ create mode 100644 ,
+ create mode 100644 .gitignore
+ create mode 100644 Commands.txt
+ create mode 100644 Error got while creating new fields and some changes in datatable.txt
+ create mode 100644 Folium update conda.txt
+ create mode 100644 GDAL-3.3.3-cp39-cp39-win_amd64.whl
+ create mode 100644 Google password.txt
+ create mode 100644 Important Funtions.txt
+ create mode 100644 Scripts/activate
+ create mode 100644 Scripts/activate.bat
+ create mode 100644 Scripts/activate.fish
+ create mode 100644 Scripts/activate.nu
+ create mode 100644 Scripts/activate.ps1
+ create mode 100644 Scripts/activate_this.py
+ create mode 120000 Scripts/api-ms-win-core-console-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-datetime-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-debug-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-errorhandling-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-file-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-file-l1-2-0.dll
+ create mode 120000 Scripts/api-ms-win-core-file-l2-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-handle-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-heap-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-interlocked-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-libraryloader-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-localization-l1-2-0.dll
+ create mode 120000 Scripts/api-ms-win-core-memory-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-namedpipe-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-processenvironment-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-processthreads-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-processthreads-l1-1-1.dll
+ create mode 120000 Scripts/api-ms-win-core-profile-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-rtlsupport-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-string-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-synch-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-synch-l1-2-0.dll
+ create mode 120000 Scripts/api-ms-win-core-sysinfo-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-timezone-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-core-util-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-conio-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-convert-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-environment-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-filesystem-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-heap-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-locale-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-math-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-multibyte-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-private-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-process-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-runtime-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-stdio-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-string-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-time-l1-1-0.dll
+ create mode 120000 Scripts/api-ms-win-crt-utility-l1-1-0.dll
+ create mode 120000 Scripts/concrt140.dll
+ create mode 100644 Scripts/deactivate.bat
+ create mode 100644 Scripts/deactivate.nu
+ create mode 100644 Scripts/django-admin.exe
+ create mode 100644 Scripts/gdal2tiles.py
+ create mode 100644 Scripts/gdal2xyz.py
+ create mode 100644 Scripts/gdal_calc.py
+ create mode 100644 Scripts/gdal_edit.py
+ create mode 100644 Scripts/gdal_fillnodata.py
+ create mode 100644 Scripts/gdal_merge.py
+ create mode 100644 Scripts/gdal_pansharpen.py
+ create mode 100644 Scripts/gdal_polygonize.py
+ create mode 100644 Scripts/gdal_proximity.py
+ create mode 100644 Scripts/gdal_retile.py
+ create mode 100644 Scripts/gdal_sieve.py
+ create mode 100644 Scripts/gdalattachpct.py
+ create mode 100644 Scripts/gdalcompare.py
+ create mode 100644 Scripts/gdalmove.py
+ create mode 120000 Scripts/libffi-8.dll
+ create mode 120000 Scripts/msvcp140.dll
+ create mode 120000 Scripts/msvcp140_1.dll
+ create mode 120000 Scripts/msvcp140_2.dll
+ create mode 120000 Scripts/msvcp140_codecvt_ids.dll
+ create mode 100644 Scripts/normalizer.exe
+ create mode 100644 Scripts/ogrmerge.py
+ create mode 100644 Scripts/pct2rgb.py
+ create mode 100644 Scripts/pip.exe
+ create mode 100644 Scripts/pip3.9.exe
+ create mode 100644 Scripts/pip3.exe
+ create mode 100644 Scripts/pydoc.bat
+ create mode 100644 Scripts/python.exe
+ create mode 120000 Scripts/python3.dll
+ create mode 120000 Scripts/python39.dll
+ create mode 100644 Scripts/pythonw.exe
+ create mode 100644 Scripts/rgb2pct.py
+ create mode 100644 Scripts/sqlformat.exe
+ create mode 120000 Scripts/tcl86t.dll
+ create mode 120000 Scripts/tk86t.dll
+ create mode 100644 Scripts/tqdm.exe
+ create mode 120000 Scripts/ucrtbase.dll
+ create mode 100644 Scripts/unidecode.exe
+ create mode 120000 Scripts/vccorlib140.dll
+ create mode 120000 Scripts/vcomp140.dll
+ create mode 120000 Scripts/vcruntime140.dll
+ create mode 120000 Scripts/vcruntime140_1.dll
+ create mode 100644 Scripts/wheel-3.9.exe
+ create mode 100644 Scripts/wheel.exe
+ create mode 100644 Scripts/wheel3.9.exe
+ create mode 100644 Scripts/wheel3.exe
+ create mode 120000 Scripts/xlwings32-0.24.9.dll
+ create mode 120000 Scripts/xlwings64-0.24.9.dll
+ create mode 100644 Widget Tweaks.txt
+ create mode 100644 accounts/__init__.py
+ create mode 100644 accounts/admin.py
+ create mode 100644 accounts/apps.py
+ create mode 100644 accounts/context_processors.py
+ create mode 100644 accounts/forms.py
+ create mode 100644 accounts/migrations/0001_initial.py
+ create mode 100644 accounts/migrations/0002_initial.py
+ create mode 100644 accounts/migrations/0003_contactus.py
+ create mode 100644 accounts/migrations/0004_contactus_is_active.py
+ create mode 100644 accounts/migrations/0005_contactus_last_login.py
+ create mode 100644 accounts/migrations/0006_alter_user_role.py
+ create mode 100644 accounts/migrations/__init__.py
+ create mode 100644 accounts/models.py
+ create mode 100644 accounts/signals.py
+ create mode 100644 accounts/tests.py
+ create mode 100644 accounts/urls.py
+ create mode 100644 accounts/utils.py
+ create mode 100644 accounts/validators.py
+ create mode 100644 accounts/views.py
+ create mode 100644 ads app views and urls file content.txt
+ create mode 100644 ads/__init__.py
+ create mode 100644 ads/admin.py
+ create mode 100644 ads/apps.py
+ create mode 100644 ads/models.py
+ create mode 100644 ads/tests.py
+ create mode 100644 ads/urls.py
+ create mode 100644 categories/__init__.py
+ create mode 100644 categories/admin.py
+ create mode 100644 categories/apps.py
+ create mode 100644 categories/context_processors.py
+ create mode 100644 categories/models.py
+ create mode 100644 categories/tests.py
+ create mode 100644 categories/views.py
+ create mode 100644 customers/__init__.py
+ create mode 100644 customers/admin.py
+ create mode 100644 customers/apps.py
+ create mode 100644 customers/models.py
+ create mode 100644 customers/tests.py
+ create mode 100644 customers/views.py
+ create mode 100644 expads/__init__.py
+ create mode 100644 expads/admin.py
+ create mode 100644 expads/apps.py
+ create mode 100644 expads/context_processors.py
+ create mode 100644 expads/forms.py
+ create mode 100644 expads/migrations/0001_initial.py
+ create mode 100644 expads/migrations/0002_auto_20230219_2328.py
+ create mode 100644 expads/migrations/0003_initial.py
+ create mode 100644 expads/migrations/0004_remove_contactme_user.py
+ create mode 100644 expads/migrations/0005_alter_contactme_is_fallowed.py
+ create mode 100644 expads/migrations/0006_interested.py
+ create mode 100644 expads/migrations/__init__.py
+ create mode 100644 expads/models.py
+ create mode 100644 expads/tests.py
+ create mode 100644 expads/urls.py
+ create mode 100644 expads/validators.py
+ create mode 100644 expads/views.py
+ create mode 100644 image-4.jpg
+ create mode 100644 main/__init__.py
+ create mode 100644 main/asgi.py
+ create mode 100644 main/filters.py
+ create mode 100644 main/forms.py
+ create mode 100644 main/management/commands/__init__.py
+ create mode 100644 main/management/commands/load_data.py
+ create mode 100644 main/settings.py
+ create mode 100644 main/static/RealEstateImages/Building10.jpg
+ create mode 100644 main/static/RealEstateImages/Building5.jpg
+ create mode 100644 main/static/RealEstateImages/Building6.jpg
+ create mode 100644 main/static/RealEstateImages/Building7.jpg
+ create mode 100644 main/static/RealEstateImages/Building8.jpg
+ create mode 100644 main/static/RealEstateImages/Building9.jpg
+ create mode 100644 main/static/RealEstateImages/Buildings.jpg
+ create mode 100644 main/static/RealEstateImages/Buildings1.jpg
+ create mode 100644 main/static/RealEstateImages/Buildings2.jpg
+ create mode 100644 main/static/RealEstateImages/Buildings3.jpg
+ create mode 100644 main/static/RealEstateImages/Buildings4.jpg
+ create mode 100644 main/static/RealEstateImages/Colony.jpg
+ create mode 100644 main/static/RealEstateImages/Colony1.jpg
+ create mode 100644 main/static/RealEstateImages/Deal.jpg
+ create mode 100644 main/static/RealEstateImages/Electronic Sale1.jpg
+ create mode 100644 main/static/RealEstateImages/Electronic sale.jpg
+ create mode 100644 main/static/RealEstateImages/Electronic.jpg
+ create mode 100644 main/static/RealEstateImages/Family.jpg
+ create mode 100644 main/static/RealEstateImages/Family1.jpg
+ create mode 100644 main/static/RealEstateImages/ForSale.jpg
+ create mode 100644 main/static/RealEstateImages/Gettings.jpg
+ create mode 100644 main/static/RealEstateImages/Growth.jpg
+ create mode 100644 main/static/RealEstateImages/Home With swimming pool.jpg
+ create mode 100644 main/static/RealEstateImages/Home.jpg
+ create mode 100644 main/static/RealEstateImages/Home1.jpg
+ create mode 100644 main/static/RealEstateImages/Home3.jpg
+ create mode 100644 main/static/RealEstateImages/Home4.jpg
+ create mode 100644 main/static/RealEstateImages/Home5.jpg
+ create mode 100644 main/static/RealEstateImages/Home6.jpg
+ create mode 100644 main/static/RealEstateImages/Home7.jpg
+ create mode 100644 main/static/RealEstateImages/House hold.png
+ create mode 100644 main/static/RealEstateImages/House hold1.jpg
+ create mode 100644 main/static/RealEstateImages/House hold2.jpg
+ create mode 100644 main/static/RealEstateImages/House hold3.jpg
+ create mode 100644 main/static/RealEstateImages/Images1.jpg
+ create mode 100644 main/static/RealEstateImages/Invest.jpg
+ create mode 100644 main/static/RealEstateImages/Items sale.jpg
+ create mode 100644 main/static/RealEstateImages/Items.jpg
+ create mode 100644 main/static/RealEstateImages/Jobs search.jpg
+ create mode 100644 main/static/RealEstateImages/Jobs.html
+ create mode 100644 main/static/RealEstateImages/Jobs.jpg
+ create mode 100644 main/static/RealEstateImages/Jobs2.jpg
+ create mode 100644 main/static/RealEstateImages/Jobs3.jpg
+ create mode 100644 main/static/RealEstateImages/Jobs4.jpg
+ create mode 100644 main/static/RealEstateImages/Jobs_files/192px.svg
+ create mode 100644 main/static/RealEstateImages/Jobs_files/cb=gapi.loaded_0
+ create mode 100644 main/static/RealEstateImages/Jobs_files/dark_thumbnail2.png
+ create mode 100644 main/static/RealEstateImages/Jobs_files/device_default_thumbnail2.png
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(1)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(10)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(11)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(12)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(13)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(14)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(15)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(16)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(17)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(18)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(19)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(2)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(3)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(4)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(5)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(6)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(7)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(8)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/faviconV2(9)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(1)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(10)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(11)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(12)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(13)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(14)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(15)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(16)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(17)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(18)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(19)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(2)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(20)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(21)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(22)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(23)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(24)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(25)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(26)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(27)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(28)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(29)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(3)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(30)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(31)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(32)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(33)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(34)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(35)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(36)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(37)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(38)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(39)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(4)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(40)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(41)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(42)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(43)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(44)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(45)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(5)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(6)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(7)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(8)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/images(9)
+ create mode 100644 main/static/RealEstateImages/Jobs_files/light_thumbnail2.png
+ create mode 100644 main/static/RealEstateImages/Jobs_files/m=_b,_tp,_r
+ create mode 100644 main/static/RealEstateImages/Jobs_files/rs=AA2YrTsx7XYcJnCG05gLLV6xKdtZ2mCsFg
+ create mode 100644 main/static/RealEstateImages/Jobs_files/rs=AA2YrTvROJRIUHNXRGvxagmQNrIBf8h-LQ
+ create mode 100644 main/static/RealEstateImages/Keys.jpg
+ create mode 100644 main/static/RealEstateImages/Logo.png
+ create mode 100644 main/static/RealEstateImages/Logo1.png
+ create mode 100644 main/static/RealEstateImages/Logo10.jpg
+ create mode 100644 main/static/RealEstateImages/Logo2.jpg
+ create mode 100644 main/static/RealEstateImages/Logo2.png
+ create mode 100644 main/static/RealEstateImages/Logo3.jpg
+ create mode 100644 main/static/RealEstateImages/Logo4.jpg
+ create mode 100644 main/static/RealEstateImages/Logo5.png
+ create mode 100644 main/static/RealEstateImages/Logo6.jpg
+ create mode 100644 main/static/RealEstateImages/Logo7.png
+ create mode 100644 main/static/RealEstateImages/Logo8.png
+ create mode 100644 main/static/RealEstateImages/Logo9.jpg
+ create mode 100644 main/static/RealEstateImages/Money.jpg
+ create mode 100644 main/static/RealEstateImages/Sale.jpg
+ create mode 100644 main/static/RealEstateImages/Sale1.jpg
+ create mode 100644 main/static/RealEstateImages/Saving5.jpg
+ create mode 100644 main/static/RealEstateImages/Savings.jpg
+ create mode 100644 main/static/RealEstateImages/Savings1.jpg
+ create mode 100644 main/static/RealEstateImages/Savings2.jpg
+ create mode 100644 main/static/RealEstateImages/Savings3.jpg
+ create mode 100644 main/static/RealEstateImages/WorkHard.jpg
+ create mode 100644 main/static/css/bootstrap-datepicker.css
+ create mode 100644 main/static/css/bootstrap-slider.css
+ create mode 100644 main/static/css/bootstrap-theme.css
+ create mode 100644 main/static/css/bootstrap.css
+ create mode 100644 main/static/css/cs-foodbakery-plugin.css
+ create mode 100644 main/static/css/custom.css
+ create mode 100644 main/static/css/iconmoon.css
+ create mode 100644 main/static/css/style.css
+ create mode 100644 main/static/extra-images/Amjad_banner.jpg
+ create mode 100644 main/static/extra-images/Thumbs.db
+ create mode 100644 main/static/extra-images/banner-img.jpg
+ create mode 100644 main/static/extra-images/bg-image1.jpg
+ create mode 100644 main/static/fonts/icomoon.eot
+ create mode 100644 main/static/fonts/icomoon.svg
+ create mode 100644 main/static/fonts/icomoon.ttf
+ create mode 100644 main/static/fonts/icomoon.woff
+ create mode 100644 main/static/images/AmjadLogo.jpg
+ create mode 100644 main/static/images/PayPal.png
+ create mode 100644 main/static/images/Thumbs.db
+ create mode 100644 main/static/images/default-cover.PNG
+ create mode 100644 main/static/images/default-profile.PNG
+ create mode 100644 main/static/images/paid.png
+ create mode 100644 main/static/images/razorpay_logo.png
+ create mode 100644 main/static/js/bootstrap.js
+ create mode 100644 main/static/js/custom.js
+ create mode 100644 main/static/js/functions.js
+ create mode 100644 main/static/js/modernizr.js
+ create mode 100644 main/static/js/scripts.js
+ create mode 100644 main/static/logo/AmjadLogo.jpg
+ create mode 100644 main/static/logo/favicon.png
+ create mode 100644 main/static/logo/foodOnlineLogo.png
+ create mode 100644 main/urls.py
+ create mode 100644 main/views.py
+ create mode 100644 main/wsgi.py
+ create mode 100644 manage.py
+ create mode 100644 pyvenv.cfg
+ create mode 100644 requirements.txt
+ create mode 100644 static/RealEstateImages/Building10.jpg
+ create mode 100644 static/RealEstateImages/Building5.jpg
+ create mode 100644 static/RealEstateImages/Building6.jpg
+ create mode 100644 static/RealEstateImages/Building7.jpg
+ create mode 100644 static/RealEstateImages/Building8.jpg
+ create mode 100644 static/RealEstateImages/Building9.jpg
+ create mode 100644 static/RealEstateImages/Buildings.jpg
+ create mode 100644 static/RealEstateImages/Buildings1.jpg
+ create mode 100644 static/RealEstateImages/Buildings2.jpg
+ create mode 100644 static/RealEstateImages/Buildings3.jpg
+ create mode 100644 static/RealEstateImages/Buildings4.jpg
+ create mode 100644 static/RealEstateImages/Colony.jpg
+ create mode 100644 static/RealEstateImages/Colony1.jpg
+ create mode 100644 static/RealEstateImages/Deal.jpg
+ create mode 100644 static/RealEstateImages/Electronic Sale1.jpg
+ create mode 100644 static/RealEstateImages/Electronic sale.jpg
+ create mode 100644 static/RealEstateImages/Electronic.jpg
+ create mode 100644 static/RealEstateImages/Family.jpg
+ create mode 100644 static/RealEstateImages/Family1.jpg
+ create mode 100644 static/RealEstateImages/ForSale.jpg
+ create mode 100644 static/RealEstateImages/Gettings.jpg
+ create mode 100644 static/RealEstateImages/Growth.jpg
+ create mode 100644 static/RealEstateImages/Home With swimming pool.jpg
+ create mode 100644 static/RealEstateImages/Home.jpg
+ create mode 100644 static/RealEstateImages/Home1.jpg
+ create mode 100644 static/RealEstateImages/Home3.jpg
+ create mode 100644 static/RealEstateImages/Home4.jpg
+ create mode 100644 static/RealEstateImages/Home5.jpg
+ create mode 100644 static/RealEstateImages/Home6.jpg
+ create mode 100644 static/RealEstateImages/Home7.jpg
+ create mode 100644 static/RealEstateImages/House hold.png
+ create mode 100644 static/RealEstateImages/House hold1.jpg
+ create mode 100644 static/RealEstateImages/House hold2.jpg
+ create mode 100644 static/RealEstateImages/House hold3.jpg
+ create mode 100644 static/RealEstateImages/Images1.jpg
+ create mode 100644 static/RealEstateImages/Invest.jpg
+ create mode 100644 static/RealEstateImages/Items sale.jpg
+ create mode 100644 static/RealEstateImages/Items.jpg
+ create mode 100644 static/RealEstateImages/Jobs search.jpg
+ create mode 100644 static/RealEstateImages/Jobs.html
+ create mode 100644 static/RealEstateImages/Jobs.jpg
+ create mode 100644 static/RealEstateImages/Jobs2.jpg
+ create mode 100644 static/RealEstateImages/Jobs3.jpg
+ create mode 100644 static/RealEstateImages/Jobs4.jpg
+ create mode 100644 static/RealEstateImages/Jobs_files/192px.svg
+ create mode 100644 static/RealEstateImages/Jobs_files/cb=gapi.loaded_0
+ create mode 100644 static/RealEstateImages/Jobs_files/dark_thumbnail2.png
+ create mode 100644 static/RealEstateImages/Jobs_files/device_default_thumbnail2.png
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(1)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(10)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(11)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(12)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(13)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(14)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(15)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(16)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(17)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(18)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(19)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(2)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(3)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(4)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(5)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(6)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(7)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(8)
+ create mode 100644 static/RealEstateImages/Jobs_files/faviconV2(9)
+ create mode 100644 static/RealEstateImages/Jobs_files/images
+ create mode 100644 static/RealEstateImages/Jobs_files/images(1)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(10)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(11)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(12)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(13)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(14)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(15)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(16)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(17)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(18)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(19)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(2)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(20)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(21)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(22)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(23)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(24)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(25)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(26)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(27)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(28)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(29)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(3)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(30)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(31)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(32)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(33)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(34)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(35)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(36)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(37)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(38)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(39)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(4)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(40)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(41)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(42)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(43)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(44)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(45)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(5)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(6)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(7)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(8)
+ create mode 100644 static/RealEstateImages/Jobs_files/images(9)
+ create mode 100644 static/RealEstateImages/Jobs_files/light_thumbnail2.png
+ create mode 100644 static/RealEstateImages/Jobs_files/m=_b,_tp,_r
+ create mode 100644 static/RealEstateImages/Jobs_files/rs=AA2YrTsx7XYcJnCG05gLLV6xKdtZ2mCsFg
+ create mode 100644 static/RealEstateImages/Jobs_files/rs=AA2YrTvROJRIUHNXRGvxagmQNrIBf8h-LQ
+ create mode 100644 static/RealEstateImages/Keys.jpg
+ create mode 100644 static/RealEstateImages/Logo.png
+ create mode 100644 static/RealEstateImages/Logo1.png
+ create mode 100644 static/RealEstateImages/Logo10.jpg
+ create mode 100644 static/RealEstateImages/Logo2.jpg
+ create mode 100644 static/RealEstateImages/Logo2.png
+ create mode 100644 static/RealEstateImages/Logo3.jpg
+ create mode 100644 static/RealEstateImages/Logo4.jpg
+ create mode 100644 static/RealEstateImages/Logo5.png
+ create mode 100644 static/RealEstateImages/Logo6.jpg
+ create mode 100644 static/RealEstateImages/Logo7.png
+ create mode 100644 static/RealEstateImages/Logo8.png
+ create mode 100644 static/RealEstateImages/Logo9.jpg
+ create mode 100644 static/RealEstateImages/Money.jpg
+ create mode 100644 static/RealEstateImages/Sale.jpg
+ create mode 100644 static/RealEstateImages/Sale1.jpg
+ create mode 100644 static/RealEstateImages/Saving5.jpg
+ create mode 100644 static/RealEstateImages/Savings.jpg
+ create mode 100644 static/RealEstateImages/Savings1.jpg
+ create mode 100644 static/RealEstateImages/Savings2.jpg
+ create mode 100644 static/RealEstateImages/Savings3.jpg
+ create mode 100644 static/RealEstateImages/WorkHard.jpg
+ create mode 100644 static/admin/css/autocomplete.css
+ create mode 100644 static/admin/css/base.css
+ create mode 100644 static/admin/css/changelists.css
+ create mode 100644 static/admin/css/dark_mode.css
+ create mode 100644 static/admin/css/dashboard.css
+ create mode 100644 static/admin/css/fonts.css
+ create mode 100644 static/admin/css/forms.css
+ create mode 100644 static/admin/css/login.css
+ create mode 100644 static/admin/css/nav_sidebar.css
+ create mode 100644 static/admin/css/responsive.css
+ create mode 100644 static/admin/css/responsive_rtl.css
+ create mode 100644 static/admin/css/rtl.css
+ create mode 100644 static/admin/css/vendor/select2/LICENSE-SELECT2.md
+ create mode 100644 static/admin/css/vendor/select2/select2.css
+ create mode 100644 static/admin/css/vendor/select2/select2.min.css
+ create mode 100644 static/admin/css/widgets.css
+ create mode 100644 static/admin/fonts/LICENSE.txt
+ create mode 100644 static/admin/fonts/README.txt
+ create mode 100644 static/admin/fonts/Roboto-Bold-webfont.woff
+ create mode 100644 static/admin/fonts/Roboto-Light-webfont.woff
+ create mode 100644 static/admin/fonts/Roboto-Regular-webfont.woff
+ create mode 100644 static/admin/img/LICENSE
+ create mode 100644 static/admin/img/README.txt
+ create mode 100644 static/admin/img/calendar-icons.svg
+ create mode 100644 static/admin/img/gis/move_vertex_off.svg
+ create mode 100644 static/admin/img/gis/move_vertex_on.svg
+ create mode 100644 static/admin/img/icon-addlink.svg
+ create mode 100644 static/admin/img/icon-alert.svg
+ create mode 100644 static/admin/img/icon-calendar.svg
+ create mode 100644 static/admin/img/icon-changelink.svg
+ create mode 100644 static/admin/img/icon-clock.svg
+ create mode 100644 static/admin/img/icon-deletelink.svg
+ create mode 100644 static/admin/img/icon-no.svg
+ create mode 100644 static/admin/img/icon-unknown-alt.svg
+ create mode 100644 static/admin/img/icon-unknown.svg
+ create mode 100644 static/admin/img/icon-viewlink.svg
+ create mode 100644 static/admin/img/icon-yes.svg
+ create mode 100644 static/admin/img/inline-delete.svg
+ create mode 100644 static/admin/img/search.svg
+ create mode 100644 static/admin/img/selector-icons.svg
+ create mode 100644 static/admin/img/sorting-icons.svg
+ create mode 100644 static/admin/img/tooltag-add.svg
+ create mode 100644 static/admin/img/tooltag-arrowright.svg
+ create mode 100644 static/admin/js/SelectBox.js
+ create mode 100644 static/admin/js/SelectFilter2.js
+ create mode 100644 static/admin/js/actions.js
+ create mode 100644 static/admin/js/admin/DateTimeShortcuts.js
+ create mode 100644 static/admin/js/admin/RelatedObjectLookups.js
+ create mode 100644 static/admin/js/autocomplete.js
+ create mode 100644 static/admin/js/calendar.js
+ create mode 100644 static/admin/js/cancel.js
+ create mode 100644 static/admin/js/change_form.js
+ create mode 100644 static/admin/js/collapse.js
+ create mode 100644 static/admin/js/core.js
+ create mode 100644 static/admin/js/filters.js
+ create mode 100644 static/admin/js/inlines.js
+ create mode 100644 static/admin/js/jquery.init.js
+ create mode 100644 static/admin/js/nav_sidebar.js
+ create mode 100644 static/admin/js/popup_response.js
+ create mode 100644 static/admin/js/prepopulate.js
+ create mode 100644 static/admin/js/prepopulate_init.js
+ create mode 100644 static/admin/js/urlify.js
+ create mode 100644 static/admin/js/vendor/jquery/LICENSE.txt
+ create mode 100644 static/admin/js/vendor/jquery/jquery.js
+ create mode 100644 static/admin/js/vendor/jquery/jquery.min.js
+ create mode 100644 static/admin/js/vendor/select2/LICENSE.md
+ create mode 100644 static/admin/js/vendor/select2/i18n/af.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ar.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/az.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/bg.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/bn.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/bs.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ca.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/cs.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/da.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/de.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/dsb.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/el.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/en.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/es.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/et.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/eu.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/fa.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/fi.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/fr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/gl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/he.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hi.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hsb.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hu.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/hy.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/id.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/is.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/it.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ja.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ka.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/km.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ko.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/lt.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/lv.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/mk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ms.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/nb.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ne.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/nl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/pl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ps.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/pt-BR.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/pt.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ro.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/ru.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sq.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sr-Cyrl.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/sv.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/th.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/tk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/tr.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/uk.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/vi.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/zh-CN.js
+ create mode 100644 static/admin/js/vendor/select2/i18n/zh-TW.js
+ create mode 100644 static/admin/js/vendor/select2/select2.full.js
+ create mode 100644 static/admin/js/vendor/select2/select2.full.min.js
+ create mode 100644 static/admin/js/vendor/xregexp/LICENSE.txt
+ create mode 100644 static/admin/js/vendor/xregexp/xregexp.js
+ create mode 100644 static/admin/js/vendor/xregexp/xregexp.min.js
+ create mode 100644 static/css/bootstrap-datepicker.css
+ create mode 100644 static/css/bootstrap-slider.css
+ create mode 100644 static/css/bootstrap-theme.css
+ create mode 100644 static/css/bootstrap.css
+ create mode 100644 static/css/cs-foodbakery-plugin.css
+ create mode 100644 static/css/custom.css
+ create mode 100644 static/css/iconmoon.css
+ create mode 100644 static/css/responsive.css
+ create mode 100644 static/css/responsive.css.map
+ create mode 100644 static/css/style.css
+ create mode 100644 static/css/ui.css
+ create mode 100644 static/css/ui.css.map
+ create mode 100644 static/dialog.js
+ create mode 100644 static/django-htmx.js
+ create mode 100644 static/extra-images/Amjad_banner.jpg
+ create mode 100644 static/extra-images/Thumbs.db
+ create mode 100644 static/extra-images/banner-img.jpg
+ create mode 100644 static/extra-images/bg-image1.jpg
+ create mode 100644 static/fonts/fontawesome/css/all.css
+ create mode 100644 static/fonts/fontawesome/css/all.min.css
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.eot
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.svg
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.ttf
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.woff
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-brands-400.woff2
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.eot
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.svg
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.ttf
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.woff
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-regular-400.woff2
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.eot
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.svg
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.ttf
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.woff
+ create mode 100644 static/fonts/fontawesome/webfonts/fa-solid-900.woff2
+ create mode 100644 static/fonts/icomoon.eot
+ create mode 100644 static/fonts/icomoon.svg
+ create mode 100644 static/fonts/icomoon.ttf
+ create mode 100644 static/fonts/icomoon.woff
+ create mode 100644 static/fonts/roboto/Roboto-Bold.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Light.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Medium.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Regular.ttf
+ create mode 100644 static/fonts/roboto/Roboto-Thin.ttf
+ create mode 100644 static/fonts/roboto/font-min.css
+ create mode 100644 static/fonts/roboto/font.css
+ create mode 100644 static/images/AAAABig.png
+ create mode 100644 static/images/AAAASmall.png
+ create mode 100644 static/images/AmjadLogo.jpg
+ create mode 100644 static/images/LogoBig.jpg
+ create mode 100644 static/images/PayPal.png
+ create mode 100644 static/images/Thumbs.db
+ create mode 100644 static/images/aaaalogoshop.png
+ create mode 100644 static/images/aaaanew.png
+ create mode 100644 static/images/aaaanewbkp.png
+ create mode 100644 static/images/avatars/avatar1.jpg
+ create mode 100644 static/images/avatars/avatar2.jpg
+ create mode 100644 static/images/avatars/avatar3.jpg
+ create mode 100644 static/images/banners/1.jpg
+ create mode 100644 static/images/banners/slide-lg-1.jpg
+ create mode 100644 static/images/banners/slide-lg-2.jpg
+ create mode 100644 static/images/banners/slide-lg-3.jpg
+ create mode 100644 static/images/banners/slide1.jpg
+ create mode 100644 static/images/banners/slide2.jpg
+ create mode 100644 static/images/banners/slide3.jpg
+ create mode 100644 static/images/default-cover.PNG
+ create mode 100644 static/images/default-profile.PNG
+ create mode 100644 static/images/favicon.ico
+ create mode 100644 static/images/icons/flag-in.png
+ create mode 100644 static/images/icons/flag-kr.png
+ create mode 100644 static/images/icons/flag-tr.png
+ create mode 100644 static/images/icons/flag-usa.png
+ create mode 100644 static/images/icons/flag-vt.png
+ create mode 100644 static/images/icons/pay-american-ex.png
+ create mode 100644 static/images/icons/pay-bank.png
+ create mode 100644 static/images/icons/pay-mastercard.png
+ create mode 100644 static/images/icons/pay-visa-el.png
+ create mode 100644 static/images/icons/pay-visa.png
+ create mode 100644 static/images/icons/stars-active.svg
+ create mode 100644 static/images/icons/starts-disable.svg
+ create mode 100644 static/images/image-4.jpg
+ create mode 100644 static/images/items/1.jpg
+ create mode 100644 static/images/items/10.jpg
+ create mode 100644 static/images/items/11.jpg
+ create mode 100644 static/images/items/12-1.jpg
+ create mode 100644 static/images/items/12-2.jpg
+ create mode 100644 static/images/items/12.jpg
+ create mode 100644 static/images/items/2.jpg
+ create mode 100644 static/images/items/3.jpg
+ create mode 100644 static/images/items/4.jpg
+ create mode 100644 static/images/items/5.jpg
+ create mode 100644 static/images/items/6.jpg
+ create mode 100644 static/images/items/7.jpg
+ create mode 100644 static/images/items/8.jpg
+ create mode 100644 static/images/items/9.jpg
+ create mode 100644 static/images/misc/appstore.png
+ create mode 100644 static/images/misc/btn-paypal.png
+ create mode 100644 static/images/misc/cash.jpg
+ create mode 100644 static/images/misc/map.jpg
+ create mode 100644 static/images/misc/payment-bank.png
+ create mode 100644 static/images/misc/payment-card.png
+ create mode 100644 static/images/misc/payment-paypal.png
+ create mode 100644 static/images/misc/payments.png
+ create mode 100644 static/images/misc/playmarket.png
+ create mode 100644 static/images/paid.png
+ create mode 100644 static/images/razorpay_logo.png
+ create mode 100644 static/js/bootstrap.bundle.min.js
+ create mode 100644 static/js/bootstrap.js
+ create mode 100644 static/js/custom.js
+ create mode 100644 static/js/daterangepicker.js
+ create mode 100644 static/js/dialog.js
+ create mode 100644 static/js/functions.js
+ create mode 100644 static/js/jquery-2.0.0.min.js
+ create mode 100644 static/js/jquery-te-1.4.0.min.js
+ create mode 100644 static/js/jquery-ui.js
+ create mode 100644 static/js/jquery.js
+ create mode 100644 static/js/jquery.mCustomScrollbar.concat.min.js
+ create mode 100644 static/js/modernizr.js
+ create mode 100644 static/js/script.js
+ create mode 100644 static/js/scripts.js
+ create mode 100644 static/js/tag-it.js
+ create mode 100644 static/js/theia-sticky-sidebar.js
+ create mode 100644 static/js/toast.js
+ create mode 100644 static/logo/AmjadLogo.jpg
+ create mode 100644 static/logo/favicon.png
+ create mode 100644 static/logo/foodOnlineLogo.png
+ create mode 100644 static/toast.js
+ create mode 100644 templates/403.html
+ create mode 100644 templates/BKPHOME.HTML
+ create mode 100644 templates/accounts/Agent.html
+ create mode 100644 templates/accounts/contactus.html
+ create mode 100644 templates/accounts/custDashboard.html
+ create mode 100644 templates/accounts/emails/account_verification_email.html
+ create mode 100644 templates/accounts/emails/admin_approval_email.html
+ create mode 100644 templates/accounts/emails/contactusconfirm.html
+ create mode 100644 templates/accounts/emails/reset_password_email.html
+ create mode 100644 templates/accounts/forgot_password.html
+ create mode 100644 templates/accounts/login.html
+ create mode 100644 templates/accounts/registerUser.html
+ create mode 100644 templates/accounts/registerVendor.html
+ create mode 100644 templates/accounts/reset_password.html
+ create mode 100644 templates/accounts/vendorDashboard.html
+ create mode 100644 templates/base.html
+ create mode 100644 templates/baseold.html
+ create mode 100644 templates/bkpbase.html
+ create mode 100644 templates/countries.html
+ create mode 100644 templates/expads/Interested.html
+ create mode 100644 templates/expads/addads.html
+ create mode 100644 templates/expads/bkpaddads.html
+ create mode 100644 templates/expads/categorydetail.html
+ create mode 100644 templates/expads/contactmes.html
+ create mode 100644 templates/expads/contactyous.html
+ create mode 100644 templates/expads/expads.html
+ create mode 100644 templates/expads/expataddetail.html
+ create mode 100644 templates/expads/homebkp.html
+ create mode 100644 templates/home.html
+ create mode 100644 templates/includes/alerts.html
+ create mode 100644 templates/includes/c_sidebar.html
+ create mode 100644 templates/includes/cover.html
+ create mode 100644 templates/includes/footer.html
+ create mode 100644 templates/includes/navbar.html
+ create mode 100644 templates/includes/v_sidebar.html
+ create mode 100644 templates/partials/categories.html
+ create mode 100644 templates/partials/cities.html
+ create mode 100644 templates/partials/locations.html
+ create mode 100644 vendor/__init__.py
+ create mode 100644 vendor/admin.py
+ create mode 100644 vendor/apps.py
+ create mode 100644 vendor/forms.py
+ create mode 100644 vendor/migrations/0001_initial.py
+ create mode 100644 vendor/migrations/__init__.py
+ create mode 100644 vendor/models.py
+ create mode 100644 vendor/tests.py
+ create mode 100644 vendor/urls.py
+ create mode 100644 vendor/views.py
+
+(expatproj) C:\expatproj>git status
+On branch main
+nothing to commit, working tree clean
+
+(expatproj) C:\expatproj>
