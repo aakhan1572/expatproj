@@ -1,0 +1,42 @@
+ads --> Views -->  
+
+from django.shortcuts import render
+from .models import Countrycode,CityCode,CategoryCode,LocationCode,SubLocationCode
+
+# Create your views here.
+def countries(request):
+    countries = Countrycode.objects.all()
+    context = {'countries': countries}
+    return render(request, 'countries.html', context)
+
+
+def cities(request):
+    countries= request.GET.get('countries')
+    cities = CityCode.objects.filter(countrycode=countries)
+    context = {'cities': cities}
+    return render(request, 'partials/cities.html', context)
+
+def locations(request):
+    cities=request.GET.get('cities')
+    locations=LocationCode.objects.filter(locationcode=cities)
+    context={'locations':locations}
+    return render(request, 'partials/locations.html', context)
+
+def categories(request):
+    cities=request.GET.get('cities')
+    categories=CategoryCode.objects.filter(categorycode=cities)
+    context={'categories':categories}
+    return render(request, 'partials/categories.html', context)    
+
+
+
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.countries, name='countries'),
+    path('cities/', views.cities, name='cities'),
+    path('locations/', views.locations, name='locations'),
+    path('categories/', views.categories, name='categories'),
+]

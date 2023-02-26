@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+{% load static %}
+
+{% block content %}
+
+<div class="container mx-auto">
+<div class="grid grid-cols-8 gap-8 divide-x  m-6">
+    
+        <div class="col-span-3 border-style: double border-4 border-red-600 border-info-500/100;">
+            <img  src="{{ expatads.cover_photo.url}}" alt="" style="min-height : 500px;max-height : 700px rounded-full">
+        
+        </div>
+
+
+    <div class="border : double border-4  rounded-full  ring-4 ring-red-700  col-start-4 col-span-5 border-style:  border-4 border-red-600 border-red-100/30; ">
+        <div class="Justify-center">
+            <h1 class="p-4 text-center">
+                Fullname : {{ expatads.fullname}}
+            </h1>
+        </div>
+        
+        <div class="Justify-center">
+            <h2 class="p-4 text-center">
+                City : {{ expatads.city}}
+            </h2>
+        </div>
+
+        <div class="Justify-center">
+            <h2 class="p-4 text-center">
+                Area : {{ expatads.area}}
+            </h2>
+        </div>
+
+        <div class="Justify-center">
+            <h2 class="p-4 text-center">
+                Landmark : {{ expatads.landmark}}
+            </h2>
+        </div>
+        <div class="Justify-center">
+            <h2 class="p-4 text-center">
+                Areasize : {{ expatads.areasize}}
+            </h2>
+        </div>
+        <div class="Justify-center">
+            <h2 class="p-4 text-center">
+                Price : {{ expatads.price}}
+            </h2>
+        </div>
+        <div class="Justify-center">
+            <h2 class="p-4 text-center">
+                Description : {{ expatads.Description}}
+            </h2>
+        </div>
+        
+        <div class="Justify-center">
+            <h2 class="p-4 text-center">
+                <a href="{% url 'contactmes' %}" class="btn btn-outline-info font-weight-bold text-info rounded-pill" >Contact me</a>
+                
+
+                <a href="{% url 'interested' %}" class="btn btn-outline-info font-weight-bold text-info rounded-pill" >Know More Details</a>
+
+            </h2>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+		<!-- ============================ COMPONENT 1 ================================= -->
+
+							<!-- <a href="{{ expatImage_list.images.url }}" target="mainImage"><img src="{{ expatImage_list.images.url }}" alt="Product Image"></a> -->
+<!--                         <div class="row">
+                            {% for i in expatImage_list %}
+                            <div class="p-8">
+                                         {% thumbnail i.images "100x100" crop="center" as im %}
+                                            <a href="{{im.url}}" target="mainImage"><img src="{{im.url}}" alt="Product Image"></a>
+                                        {% endthumbnail %}
+                            </div>
+                      
+							{% endfor %}
+                        </div> -->
+<!-- 
+
+                        <h2> {{ expatads.fullname}} Details and Todal Images found  {{ expatImage_list.count}} </h2>
+
+                        <hr />
+                        <br>
+                           
+                                    <div>
+                                        {% for i in expatImage_list %}
+                                                <img class="card-img-top img-fluid" src="{{ i.images.url }}" alt="Card image cap" style="height: 200px; width: 200px;">
+                                  
+                                        {% empty %}
+                                            <p> No Images Found </p>
+                                        {% endfor %}
+                                    </div> -->
+
+	
+ 
+		<!-- ============================ COMPONENT 1 END .// ================================= -->
+        <h2> {{ expatads.fullname}} Details Images found  {{ expatImage_list.count}} </h2>
+
+        <hr />
+        <br>
+
+        <div class="bg-gray-300">
+            <div class=" m-auto flex">
+              <div class="overflow-auto w-full flex items-center">
+                <div class="p-15">
+                    {% for i in expatImage_list %}
+                    <img class="card-img-top img-fluid" src="{{ i.images.url }}" alt="Card image cap" >
+      
+                    {% empty %}
+                        <p> No Images Found </p>
+                    {% endfor %}
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+    
+{% endblock %}
+    

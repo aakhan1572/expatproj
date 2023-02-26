@@ -1,0 +1,80 @@
+
+
+<!-- {% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+{% with WIDGET_ERROR_CLASS='is-invalid' %}
+
+
+{% block content %}
+
+
+<form hx-post="{{ request.path }}" hx-headers='{"X-CSRFToken":"{{ csrf_token }}"}' class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title">Edit Movie</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <div class="mb-3">
+      <label for="{{ form.fullname.id_for_label }}" class="form-label">Full Name</label>
+      {% render_field form.fullname class="form-control" placeholder="Full Name" %}
+      <div class="invalid-feedback">{{ form.fullname.errors|first }}</div>
+    </div>
+    <div class="mb-3">
+      <label for="{{ form.country.id_for_label }}" class="form-label">Country</label>
+      {% render_field form.country class="form-control" placeholder="Country" %}
+      <div class="invalid-feedback">{{ form.country.errors|first }}</div>
+    </div>
+    <div class="mb-3">
+        <label for="{{ form.city.id_for_label }}" class="form-label">City</label>
+        {% render_field form.city class="form-control" placeholder="City" %}
+        <div class="invalid-feedback">{{ form.city.errors|first }}</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="{{ form.landmark.id_for_label }}" class="form-label">Landmark</label>
+        {% render_field form.landmark class="form-control" placeholder="Langmark" %}
+        <div class="invalid-feedback">{{ form.landmark.errors|first }}</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="{{ form.area.id_for_label }}" class="form-label">Area</label>
+        {% render_field form.area class="form-control" placeholder="area" %}
+        <div class="invalid-feedback">{{ form.area.errors|first }}</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="{{ form.size.id_for_label }}" class="form-label">Size</label>
+        {% render_field form.size class="form-control" placeholder="Size" %}
+        <div class="invalid-feedback">{{ form.size.errors|first }}</div>
+    </div>
+    <div class="mb-3">
+        <label for="{{ form.contactno.id_for_label }}" class="form-label">Contact No</label>
+        {% render_field form.contactno class="form-control" placeholder="Contact No" %}
+        <div class="invalid-feedback">{{ form.contactno.errors|first }}</div>
+    </div>
+    <div class="mb-3">
+        <label for="{{ form.zipcode.id_for_label }}" class="form-label">Zip Code</label>
+        {% render_field form.zipcode class="form-control" placeholder="Zip Code" %}
+        <div class="invalid-feedback">{{ form.zipcode.errors|first }}</div>
+    </div>
+    <div class="mb-3">
+        <label for="{{ form.areasize.id_for_label }}" class="form-label">areasize</label>
+        {% render_field form.areasize class="form-control" placeholder="AreaSize" %}
+        <div class="invalid-feedback">{{ form.areasize.errors|first }}</div>
+    </div>    
+    <div class="mb-3">
+      <label for="{{ form.Description.id_for_label }}" class="form-label">Description</label >
+      {% render_field form.Description class="form-control" placeholder="Description" %}
+      <div class="invalid-feedback">{{ form.Description.errors|first }}</div>
+    </div>
+  </div>
+
+
+
+</form>
+
+{% endblock %}
+{% endwith %} 
+
+ -->

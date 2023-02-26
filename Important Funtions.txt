@@ -1,0 +1,100 @@
+import datetime
+
+now = datetime.datetime.now()
+
+year = now.year
+day = now.day
+hour = now.hour
+minute = now.minute
+second = now.second
+
+def add_expiry(a):
+    month = now.month
+    print('month : ', month)
+    current_month = month+a
+    print('month adding variable : ', current_month)
+    date = f"{year}/{current_month}/{day}"
+    time = f"{hour}:{minute}:{second}"
+    return f"{date} {time}"
+print(add_expiry(6))
+
+
+
+Adding months to give date follows
+
+pip install python-dateutil
+from datetime import date
+from dateutil.relativedelta import relativedelta
+
+current_date = date.today()
+
+print(current_date)
+
+future_date = current_date + relativedelta(months=2)
+
+print(future_date)
+
+
+
+Subtracting date followsing
+from datetime import timedelta, date
+
+current_date = date.today()
+
+print(current_date)
+
+past_date = current_date - timedelta(days=2)
+
+print(past_date)
+
+
+future_date = current_date + timedelta(days=2)
+
+print(future_date)
+
+
+
+
+
+
+Example: Get The Last Day Of The Month
+# Get the last day of the month from a given date
+import calendar
+from datetime import datetime
+
+input_dt = datetime(2022, 9, 13)
+print("The original date is:", input_dt.date())
+
+# monthrange() to gets the date range
+# year = 2022, month = 9
+res = calendar.monthrange(input_dt.year, input_dt.month)
+day = res[1]
+print(f"Last date of month is: {input_dt.year}-{input_dt.month}-{day}")
+
+# note:
+# res [0]  = weekday of first day (between 0-6 ~ Mon-Sun))
+# res [1] = last day of the month
+Output:
+
+The original date is: 2022-09-13
+Last date of month is: 2022-9-30
+
+
+
+
+from datetime import datetime, timedelta
+
+input_dt = datetime(2022, 9, 13)
+print("The original date is:", input_dt.date())
+
+next_month = input_dt.replace(day=28) + timedelta(days=4)
+res = next_month - timedelta(days=next_month.day)
+print(f"Last date of month is:", res.date())
+The original date is: 2022-09-13
+Last date of month is: 2022-09-30
+
+
+
+
+
+

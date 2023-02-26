@@ -1,0 +1,230 @@
+
+C:\>virtualenv expatproj
+created virtual environment CPython3.9.7.final.0-64 in 6453ms
+  creator CPython3Windows(dest=C:\expatproj, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\amjad\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==22.3.1, setuptools==65.6.3, wheel==0.38.4
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+C:\>cd expatproj
+
+C:\expatproj>Script\activate
+The system cannot find the path specified.
+
+C:\expatproj>dir
+ Volume in drive C has no label.
+ Volume Serial Number is A2BD-F1FE
+
+ Directory of C:\expatproj
+
+22/12/2022  08:18 PM    <DIR>          .
+22/12/2022  08:18 PM    <DIR>          ..
+22/12/2022  08:18 PM                42 .gitignore
+22/12/2022  08:18 PM    <DIR>          Lib
+22/12/2022  08:18 PM               289 pyvenv.cfg
+22/12/2022  08:18 PM    <DIR>          Scripts
+               2 File(s)            331 bytes
+               4 Dir(s)  405,683,961,856 bytes free
+
+C:\expatproj>Scripts\activate
+
+(expatproj) C:\expatproj>pip install django
+Collecting django
+  Using cached Django-4.1.4-py3-none-any.whl (8.1 MB)
+Collecting asgiref<4,>=3.5.2
+  Downloading asgiref-3.6.0-py3-none-any.whl (23 kB)
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.3-py3-none-any.whl (42 kB)
+Collecting tzdata
+  Using cached tzdata-2022.7-py2.py3-none-any.whl (340 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.6.0 django-4.1.4 sqlparse-0.4.3 tzdata-2022.7
+
+(expatproj) C:\expatproj>pip install pillow
+Collecting pillow
+  Using cached Pillow-9.3.0-cp39-cp39-win_amd64.whl (2.5 MB)
+Installing collected packages: pillow
+Successfully installed pillow-9.3.0
+
+(expatproj) C:\expatproj>django-admin startproject main .
+
+(expatproj) C:\expatproj>
+(expatproj) C:\expatproj>pip install django_extensions
+Collecting django_extensions
+  Using cached django_extensions-3.2.1-py3-none-any.whl (229 kB)
+Requirement already satisfied: Django>=3.2 in c:\expatproj\lib\site-packages (from django_extensions) (4.1.4)
+Requirement already satisfied: asgiref<4,>=3.5.2 in c:\expatproj\lib\site-packages (from Django>=3.2->django_extensions) (3.6.0)
+Requirement already satisfied: tzdata in c:\expatproj\lib\site-packages (from Django>=3.2->django_extensions) (2022.7)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\expatproj\lib\site-packages (from Django>=3.2->django_extensions) (0.4.3)
+Installing collected packages: django_extensions
+Successfully installed django_extensions-3.2.1
+
+(expatproj) C:\expatproj>pip install django-htmx
+Collecting django-htmx
+  Using cached django_htmx-1.13.0-py3-none-any.whl (7.0 kB)
+Requirement already satisfied: Django>=3.2 in c:\expatproj\lib\site-packages (from django-htmx) (4.1.4)
+Requirement already satisfied: tzdata in c:\expatproj\lib\site-packages (from Django>=3.2->django-htmx) (2022.7)
+Requirement already satisfied: asgiref<4,>=3.5.2 in c:\expatproj\lib\site-packages (from Django>=3.2->django-htmx) (3.6.0)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\expatproj\lib\site-packages (from Django>=3.2->django-htmx) (0.4.3)
+Installing collected packages: django-htmx
+Successfully installed django-htmx-1.13.0
+
+(expatproj) C:\expatproj>pip install django-widget-tweaks
+Collecting django-widget-tweaks
+  Using cached django_widget_tweaks-1.4.12-py3-none-any.whl (8.9 kB)
+Installing collected packages: django-widget-tweaks
+Successfully installed django-widget-tweaks-1.4.12
+
+(expatproj) C:\expatproj>mkdir templates
+
+(expatproj) C:\expatproj>pip install decouple
+Collecting decouple
+  Using cached decouple-0.0.7-py3-none-any.whl
+Installing collected packages: decouple
+Successfully installed decouple-0.0.7
+
+(expatproj) C:\expatproj>pip install simplejson
+Collecting simplejson
+  Using cached simplejson-3.18.0-cp39-cp39-win_amd64.whl (76 kB)
+Installing collected packages: simplejson
+Successfully installed simplejson-3.18.0
+
+(expatproj) C:\expatproj>pip install simplejson
+Requirement already satisfied: simplejson in c:\expatproj\lib\site-packages (3.18.0)
+
+(expatproj) C:\expatproj>pip install razorpay
+Collecting razorpay
+  Using cached razorpay-1.3.0-py3-none-any.whl (168 kB)
+Collecting requests
+  Using cached requests-2.28.1-py3-none-any.whl (62 kB)
+Collecting certifi>=2017.4.17
+  Using cached certifi-2022.12.7-py3-none-any.whl (155 kB)
+Collecting idna<4,>=2.5
+  Using cached idna-3.4-py3-none-any.whl (61 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Using cached urllib3-1.26.13-py2.py3-none-any.whl (140 kB)
+Collecting charset-normalizer<3,>=2
+  Using cached charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
+Installing collected packages: urllib3, idna, charset-normalizer, certifi, requests, razorpay
+Successfully installed certifi-2022.12.7 charset-normalizer-2.1.1 idna-3.4 razorpay-1.3.0 requests-2.28.1 urllib3-1.26.13
+
+(expatproj) C:\expatproj>pip install psycopg2
+Collecting psycopg2
+  Using cached psycopg2-2.9.5-cp39-cp39-win_amd64.whl (1.2 MB)
+Installing collected packages: psycopg2
+Successfully installed psycopg2-2.9.5
+
+(expatproj) C:\expatproj>python manage.py startapp ads
+
+(expatproj) C:\expatproj>python manage.py startapp accounts
+
+(expatproj) C:\expatproj>python manage.py startapp customers
+
+(expatproj) C:\expatproj>python manage.py startapp categories
+
+(expatproj) C:\expatproj>pip uninstall decouple
+Found existing installation: decouple 0.0.7
+Uninstalling decouple-0.0.7:
+  Would remove:
+    c:\expatproj\lib\site-packages\decouple-0.0.7.dist-info\*
+    c:\expatproj\lib\site-packages\decouple\*
+Proceed (Y/n)? y
+  Successfully uninstalled decouple-0.0.7
+
+(expatproj) C:\expatproj>pip install python-decouple
+Collecting python-decouple
+  Using cached python_decouple-3.6-py3-none-any.whl (9.9 kB)
+Installing collected packages: python-decouple
+Successfully installed python-decouple-3.6
+
+(expatproj) C:\expatproj>pip freeze > requirements.txt
+
+(expatproj) C:\expatproj>
+(expatproj) C:\expatproj>pip install django-filter
+Collecting django-filter
+  Downloading django_filter-22.1-py3-none-any.whl (80 kB)
+     ---------------------------------------- 80.9/80.9 kB 4.7 MB/s eta 0:00:00
+Requirement already satisfied: Django>=3.2 in c:\expatproj\lib\site-packages (from django-filter) (4.1.4)
+Requirement already satisfied: tzdata in c:\expatproj\lib\site-packages (from Django>=3.2->django-filter) (2022.7)
+Requirement already satisfied: sqlparse>=0.2.2 in c:\expatproj\lib\site-packages (from Django>=3.2->django-filter) (0.4.3)
+Requirement already satisfied: asgiref<4,>=3.5.2 in c:\expatproj\lib\site-packages (from Django>=3.2->django-filter) (3.6.0)
+Installing collected packages: django-filter
+Successfully installed django-filter-22.1
+
+(expatproj) C:\expatproj>
+
+(expatproj) C:\expatproj>python manage.py makemigrations
+Migrations for 'ads':
+  ads\migrations\0001_initial.py
+    - Create model Countrycode
+    - Create model SubLocationCode
+    - Create model LocationCode
+    - Create model CityCode
+    - Create model CategoryCode
+
+(expatproj) C:\expatproj>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, ads, auth, cities, contenttypes, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying ads.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying cities.0001_initial... OK
+  Applying cities.0002_continent_models_and_foreign_keys... OK
+  Applying cities.0003_add_verbose_name_and_related_names... OK
+  Applying cities.0004_rename_languages_to_language_codes... OK
+  Applying cities.0005_add_foreignkeys_to_postalcode... OK
+  Applying cities.0006_typify_alt_names_and_add_is_historic... OK
+  Applying cities.0007_add_currency_and_postal_code_fields_to_country_model... OK
+  Applying cities.0008_add_code_to_district... OK
+  Applying cities.0009_add_slug_fields_to_models... OK
+  Applying cities.0010_adjust_unique_attributes... OK
+  Applying cities.0011_auto_20180108_0706... OK
+  Applying cities.0012_alter_alternativename_id_alter_city_id_and_more... OK
+  Applying sessions.0001_initial... OK
+
+(expatproj) C:\expatproj>
+(expatproj) C:\expatproj>python manage.py createsuperuser
+Username (leave blank to use 'amjad'): amjad
+Email address: aakhan1572@yahoo.com
+Password:
+Password (again):
+Superuser created successfully.
+
+(expatproj) C:\expatproj>
+
+(expatproj) C:\expatproj>python manage.py makemigrations
+Migrations for 'ads':
+  ads\migrations\0002_alter_categorycode_categorycode_and_more.py
+    - Alter field categorycode on categorycode
+    - Alter field locationcode on locationcode
+    - Alter field sublocationCode on sublocationcode
+
+(expatproj) C:\expatproj>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, ads, auth, cities, contenttypes, sessions
+Running migrations:
+  Applying ads.0002_alter_categorycode_categorycode_and_more... OK
+
+(expatproj) C:\expatproj>
+
+
+https://sorl-thumbnail.readthedocs.io/en/latest/template.html
+pip install sorl-thumbnail
+Add sorl.thumbnail to your settings.INSTALLED_APPS.
+python manage.py migrate

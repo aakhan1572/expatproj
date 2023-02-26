@@ -1,0 +1,365 @@
+
+table fields added i got errors.
+1) In admin.py displaylist not entered new fields that why i got error
+2) Second error i make file empty by following commands
+(expatproj) C:\expatproj>python manage.py makemigrations --empty expads
+Migrations for 'expads':
+  expads\migrations\0002_auto_20230117_2116.py
+
+3) again created superuser
+
+
+python manage.py migrate --run-syncdb
+python manage.py makemigrations appname
+python manage.py migrate
+
+
+Microsoft Windows [Version 10.0.19044.2486]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\amjad>cd \
+
+C:\>cd expatproj
+
+C:\expatproj>Scripts\activate
+
+(expatproj) C:\expatproj>code .
+
+(expatproj) C:\expatproj>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "C:\ProgramData\Anaconda3\lib\threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\expatproj\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "C:\expatproj\lib\site-packages\django\core\management\commands\runserver.py", line 132, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\expatproj\lib\site-packages\django\core\management\base.py", line 544, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+<class 'expads.admin.ExpatadAdmin'>: (admin.E108) The value of 'list_display[1]' refers to 'country', which is not a callable, an attribute of 'ExpatadAdmin', or an attribute or method on 'expads.Expatad'.
+<class 'expads.admin.ExpatadAdmin'>: (admin.E108) The value of 'list_display[2]' refers to 'city', which is not a callable, an attribute of 'ExpatadAdmin', or an attribute or method on 'expads.Expatad'.
+
+System check identified 2 issues (0 silenced).
+
+(expatproj) C:\expatproj>
+(expatproj) C:\expatproj>python manage.py makemigrations
+SystemCheckError: System check identified some issues:
+
+ERRORS:
+<class 'expads.admin.ExpatadAdmin'>: (admin.E108) The value of 'list_display[1]' refers to 'country', which is not a callable, an attribute of 'ExpatadAdmin', or an attribute or method on 'expads.Expatad'.
+<class 'expads.admin.ExpatadAdmin'>: (admin.E108) The value of 'list_display[2]' refers to 'city', which is not a callable, an attribute of 'ExpatadAdmin', or an attribute or method on 'expads.Expatad'.
+
+(expatproj) C:\expatproj>code .
+
+(expatproj) C:\expatproj>python manage.py makemigrations
+No changes detected
+
+(expatproj) C:\expatproj>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, cities, contenttypes, sessions
+Running migrations:
+  No migrations to apply.
+
+(expatproj) C:\expatproj>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2023 - 20:41:39
+Django version 4.1.4, using settings 'main.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "expads_expatad" does not exist
+LINE 1: ...patad"."created", "expads_expatad"."updated" FROM "expads_ex...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\expatproj\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\expatproj\lib\site-packages\django\core\handlers\base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\expatproj\main\views.py", line 12, in home
+    print(context)
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 370, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 1847, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\expatproj\lib\site-packages\django\db\models\sql\compiler.py", line 1387, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "expads_expatad" does not exist
+LINE 1: ...patad"."created", "expads_expatad"."updated" FROM "expads_ex...
+                                                             ^
+
+[17/Jan/2023 21:08:33] "GET / HTTP/1.1" 500 136360
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "expads_expatad" does not exist
+LINE 1: ...patad"."created", "expads_expatad"."updated" FROM "expads_ex...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\expatproj\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\expatproj\lib\site-packages\django\core\handlers\base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\expatproj\main\views.py", line 12, in home
+    print(context)
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 370, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 1847, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\expatproj\lib\site-packages\django\db\models\sql\compiler.py", line 1387, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "expads_expatad" does not exist
+LINE 1: ...patad"."created", "expads_expatad"."updated" FROM "expads_ex...
+                                                             ^
+
+[17/Jan/2023 21:08:33] "GET / HTTP/1.1" 500 136230
+Not Found: /favicon.ico
+[17/Jan/2023 21:08:34] "GET /favicon.ico HTTP/1.1" 404 4203
+[17/Jan/2023 21:09:26] "GET /admin/ HTTP/1.1" 302 0
+[17/Jan/2023 21:09:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[17/Jan/2023 21:09:27] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[17/Jan/2023 21:09:27] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[17/Jan/2023 21:09:27] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[17/Jan/2023 21:09:27] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[17/Jan/2023 21:09:27] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[17/Jan/2023 21:09:27] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[17/Jan/2023 21:09:27] "GET /admin/ HTTP/1.1" 302 0
+[17/Jan/2023 21:09:27] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[17/Jan/2023 21:09:27] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[17/Jan/2023 21:09:27] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2023 21:09:27] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2023 21:09:34] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2379
+[17/Jan/2023 21:09:34] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2023 21:09:47] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2394
+[17/Jan/2023 21:09:53] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2394
+[17/Jan/2023 21:10:02] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2394
+[17/Jan/2023 21:10:06] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2394
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "expads_expatad" does not exist
+LINE 1: ...patad"."created", "expads_expatad"."updated" FROM "expads_ex...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\expatproj\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\expatproj\lib\site-packages\django\core\handlers\base.py", line 191, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\expatproj\main\views.py", line 12, in home
+    print(context)
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 370, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 1847, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\expatproj\lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+  File "C:\expatproj\lib\site-packages\django\db\models\sql\compiler.py", line 1387, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\expatproj\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\expatproj\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "expads_expatad" does not exist
+LINE 1: ...patad"."created", "expads_expatad"."updated" FROM "expads_ex...
+                                                             ^
+
+[17/Jan/2023 21:10:34] "GET / HTTP/1.1" 500 135945
+
+(expatproj) C:\expatproj>python manage.py makemigrations expatproj
+No installed app with label 'expatproj'.
+
+(expatproj) C:\expatproj>python manage.py makemigrations main
+No installed app with label 'main'.
+
+(expatproj) C:\expatproj>python manage.py makemigrations
+No changes detected
+
+(expatproj) C:\expatproj>python manage.py makemigrations --db-sync
+usage: manage.py makemigrations [-h] [--dry-run] [--merge] [--empty] [--noinput] [-n NAME] [--no-header] [--check]
+                                [--scriptable] [--version] [-v {0,1,2,3}] [--settings SETTINGS]
+                                [--pythonpath PYTHONPATH] [--traceback] [--no-color] [--force-color] [--skip-checks]
+                                [app_label ...]
+manage.py makemigrations: error: unrecognized arguments: --db-sync
+
+(expatproj) C:\expatproj>python manage.py makemigrations --check
+No changes detected
+
+(expatproj) C:\expatproj>python manage.py makemigrations --skip-checks
+No changes detected
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty
+CommandError: You must supply at least one app label when using --empty.
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty main
+No installed app with label 'main'.
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty expatads
+No installed app with label 'expatads'.
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty ads
+Migrations for 'ads':
+  ads\migrations\0001_initial.py
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty expads
+Migrations for 'expads':
+  expads\migrations\0001_initial.py
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty customers
+No installed app with label 'customers'.
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty expads
+Migrations for 'expads':
+  expads\migrations\0002_auto_20230117_2116.py
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty main
+No installed app with label 'main'.
+
+(expatproj) C:\expatproj>python manage.py makemigrations --empty categories
+Migrations for 'categories':
+  categories\migrations\0001_initial.py
+
+(expatproj) C:\expatproj>python manage.py makemigrations
+Migrations for 'ads':
+  ads\migrations\0002_initial.py
+    - Create model CityCode
+    - Create model Countrycode
+    - Create model LocationCode
+    - Create model SubLocationCode
+    - Add field countrycode to citycode
+    - Create model CategoryCode
+Migrations for 'expads':
+  expads\migrations\0003_initial.py
+    - Create model Category
+    - Create model CityCode
+    - Create model Countrycode
+    - Create model Expatad
+    - Create model LocationCode
+    - Create model SubLocationCode
+    - Create model ExpatImage
+    - Add field locationcode to expatad
+    - Add field sublocationcode to expatad
+    - Add field user to expatad
+    - Add field countrycode to citycode
+
+(expatproj) C:\expatproj>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, ads, auth, categories, cities, contenttypes, expads, sessions
+Running migrations:
+  Applying ads.0001_initial... OK
+  Applying ads.0002_initial... OK
+  Applying categories.0001_initial... OK
+  Applying expads.0001_initial... OK
+  Applying expads.0002_auto_20230117_2116... OK
+  Applying expads.0003_initial... OK
+
+(expatproj) C:\expatproj>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2023 - 21:17:54
+Django version 4.1.4, using settings 'main.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+{'form': <ExpatadfilterForm bound=True, valid=True, fields=(Description;landmark;city;fullname)>, 'expatads': <QuerySet []>}
+[17/Jan/2023 21:18:03] "GET / HTTP/1.1" 200 13303
+[17/Jan/2023 21:18:03] "GET /static/css/ui.css HTTP/1.1" 404 1789
+[17/Jan/2023 21:18:03] "GET /static/js/script.js HTTP/1.1" 404 1795
+[17/Jan/2023 21:18:03] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 404 1825
+[17/Jan/2023 21:18:03] "GET /static/logo/AmjadLogo.jpg HTTP/1.1" 304 0
+[17/Jan/2023 21:18:03] "GET /static/fonts/fontawesome/css/all.min.css HTTP/1.1" 404 1858
+[17/Jan/2023 21:18:03] "GET /static/toast.js HTTP/1.1" 404 1783
+[17/Jan/2023 21:18:03] "GET /static/dialog.js HTTP/1.1" 404 1786
+[17/Jan/2023 21:18:04] "GET /static/js/script.js HTTP/1.1" 404 1795
+[17/Jan/2023 21:18:04] "GET /static/js/jquery-3.3.1.min.js HTTP/1.1" 404 1825
+[17/Jan/2023 21:18:05] "GET /static/css/responsive.css HTTP/1.1" 404 1813
+[17/Jan/2023 21:18:22] "GET /admin/ HTTP/1.1" 302 0
+[17/Jan/2023 21:18:22] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[17/Jan/2023 21:18:23] "GET /admin/ HTTP/1.1" 302 0
+[17/Jan/2023 21:18:23] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[17/Jan/2023 21:18:29] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2379
+^C
+(expatproj) C:\expatproj>python manage.py createsuperuser
+Username (leave blank to use 'amjad'): amjad
+Email address: aakhan1572@yahoo.com
+Password:
+Password (again):
+Superuser created successfully.
+
+(expatproj) C:\expatproj>python manage.py createsuperuser
+Username: ayaan
+Email address: aakhan1572@gmail.com
+Password:
+Password (again):
+Superuser created successfully.
+
+(expatproj) C:\expatproj>python manage.py runserver
