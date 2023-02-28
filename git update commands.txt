@@ -1,0 +1,78 @@
+(expatproj) C:\expatproj>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   github commands.txt
+        modified:   requirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Scripts/gunicorn.exe
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+(expatproj) C:\expatproj>git add .
+
+(expatproj) C:\expatproj>git commit -m "expatproj"
+[main 83ff47d] expatproj
+ 4 files changed, 22 insertions(+), 1 deletion(-)
+ create mode 100644 Scripts/gunicorn.exe
+
+(expatproj) C:\expatproj>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+(expatproj) C:\expatproj>push -u origin main
+'push' is not recognized as an internal or external command,
+operable program or batch file.
+
+(expatproj) C:\expatproj>push -u origin
+'push' is not recognized as an internal or external command,
+operable program or batch file.
+
+(expatproj) C:\expatproj>git commit -m "expatproj"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+(expatproj) C:\expatproj>git push
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 52.20 KiB | 5.22 MiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/aakhan1572/expatproj.git
+   3d32d15..83ff47d  main -> main
+
+(expatproj) C:\expatproj>git push to https://github.com/aakhan1572/expatproj.git
+fatal: invalid refspec 'https://github.com/aakhan1572/expatproj.git'
+
+(expatproj) C:\expatproj>git push to https://github.com/aakhan1572/expatproj
+fatal: invalid refspec 'https://github.com/aakhan1572/expatproj'
+
+(expatproj) C:\expatproj>git push
+Everything up-to-date
+
+(expatproj) C:\expatproj>git remote add orgin https://github.com/aakhan1572/expatproj.git
+
+(expatproj) C:\expatproj>git push
+Everything up-to-date
+
+(expatproj) C:\expatproj>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+(expatproj) C:\expatproj>
