@@ -1283,3 +1283,19 @@ On branch main
 nothing to commit, working tree clean
 
 (expatproj) C:\expatproj>
+
+
+
+
+or create a new repository on the command line
+echo "# expatproj" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aakhan1572/expatproj.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/aakhan1572/expatproj.git
+git branch -M main
+git push -u origin main
